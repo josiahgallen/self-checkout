@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Self-Checkout</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.sass.css">
+</head>
+<body>
+	<h1>Self-Checkout</h1>
+	<form id="submit">
+		<label>
+			<strong>New Item</strong><br>
+		</label>
+		<label>Item</label>
+		<input id="itemName" type="text">
+		<label>Cost</label>
+		<input id="itemCost" type="number" step="0.01">
+		<label>Quantity</label>
+		<input id="itemQuant" type="number" step="0.01"><br>
+		<button>Add Item</button>
+	</form>
+	<button id="total">Total</button>
+	<h2>Item - Price - Quantity</h2>
+	<h3 id="result"></h3>
+	<hr>
+	<h3 id="totalPrint"></h3>
+
+	<script type="text/javascript" src="/scripts/bundle.js"></script>
+</body>
+</html>
